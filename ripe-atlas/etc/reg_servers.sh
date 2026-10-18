@@ -1,0 +1,6 @@
+REG_1_HOST=reg-05.prod.atlas.ripe.net
+REG_2_HOST=193.0.19.75
+REG_3_HOST=2001:67c:2e8:11::c100:134b
+REG_4_HOST=reg-06.prod.atlas.ripe.net
+REG_5_HOST=193.0.19.76
+REG_6_HOST=2001:67c:2e8:11::c100:134c
