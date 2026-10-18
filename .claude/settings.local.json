@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(scamper -O text -I \"trace -P icmp 138.204.228.2\")",
+      "Bash(echo \"=== exit: $? ===\")"
+    ]
+  }
+}
