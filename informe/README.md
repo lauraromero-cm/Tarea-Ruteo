@@ -11,9 +11,12 @@
 | 1 | [01_scamper_path_discovery.md](01_scamper_path_discovery.md) — 6 métodos + tracelb, Tabla 1, análisis tráfico, nodo que filtra | ✅ Completo |
 | — | [COMANDOS.md](COMANDOS.md) — todos los comandos reproducibles (Punto 0 y 1) | ✅ Completo |
 | — | [GUIA_WIRESHARK.md](GUIA_WIRESHARK.md) — dónde están los pcap y filtros por método | ✅ Completo |
-| 2 | Path Discovery RIPE (UDP/ICMP/TCP + AS por hop) | ⏸️ Stand-by (requiere sonda + API RIPE) |
-| 4 | Path way RIPE (ida y vuelta, Tabla 2) | ⏸️ Stand-by |
-| 5 | Public Path (grafos en ndexbio.org, 3 UUID) | ⏸️ Stand-by |
+| 2 | [02_ripe_setup.md](02_ripe_setup.md) — instalación sonda Docker (ID 1018349), API | ✅ Completo |
+| 2 | [03_ripe_mediciones.md](03_ripe_mediciones.md) — UDP/ICMP/TCP, AS por hop, tráfico | ✅ Completo |
+| 4 | [04_ripe_pathway.md](04_ripe_pathway.md) — ruta inversa, Tabla 2 (IDA vs VUELTA), asimetría | ✅ Completo |
+| 5 | [05_public_path.md](05_public_path.md) — 3 grafos en NDEx (UUID + IDs ida/vuelta) | ✅ Completo |
+| — | [LINKS.md](LINKS.md) — links RIPE Atlas e infraestructura | ✅ (vivo) |
+| 📄 | **Informe consolidado LaTeX** → `../informe_latex/informe.tex` + `informe.pdf` (11 pág.) | ✅ Completo |
 
 ## Estructura de evidencia
 
