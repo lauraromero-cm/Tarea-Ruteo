@@ -7,10 +7,6 @@ rutas de ida y de vuelta hacia tres destinos internacionales, el tráfico genera
 el comportamiento de los nodos que filtran y, finalmente, se publican los caminos como grafos
 abiertos en NDEx.
 
-> **Nota:** el informe final (LaTeX + PDF) se mantiene en disco pero **no se versiona** en este
-> repositorio (ver `.gitignore`). Aquí se conservan únicamente las **evidencias reproducibles**,
-> los **scripts** y la **configuración de la sonda**.
-
 ---
 
 ## Entorno medido
@@ -90,10 +86,6 @@ abiertos en NDEx.
 ├── .gitignore
 └── README.md
 ```
-
-> No versionado (en `.gitignore`): `informe/` e `informe_latex/` (el informe), `ripe-atlas/run/`
-> y `ripe-atlas/spool/` (estado *runtime* de la sonda), la clave privada `probe_key`, los `*.log`
-> y la carpeta `.claude/`.
 
 ---
 
