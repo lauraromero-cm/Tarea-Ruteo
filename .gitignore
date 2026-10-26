@@ -1,16 +1,5 @@
-# === Claves privadas de la sonda RIPE (NO subir) ===
 ripe-atlas/etc/probe_key
 ripe-atlas/run/
 ripe-atlas/spool/
-
-# === Estado runtime / temporales ===
 *.log
 evidencia/run_p1.log
-
-# === Credenciales ===
-# (la API key vive en ~/.config/ripe-atlas-tools/, fuera del repo; ok)
-.claude/
-
-# === Informe (se mantiene en disco pero NO se versiona) ===
-informe/
-informe_latex/
