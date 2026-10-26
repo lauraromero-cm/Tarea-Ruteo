@@ -10,3 +10,7 @@ evidencia/run_p1.log
 # === Credenciales ===
 # (la API key vive en ~/.config/ripe-atlas-tools/, fuera del repo; ok)
 .claude/
+
+# === Informe (se mantiene en disco pero NO se versiona) ===
+informe/
+informe_latex/
