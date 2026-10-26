@@ -159,13 +159,3 @@ NDEX_USER="usuario" NDEX_PASS="clave" python3 scripts/build_graphs.py upload   #
 
 ---
 
-## Notas de reproducibilidad (gotchas)
-
-- **scamper sin root:** compilar con `--disable-scamper-privsep` y dar *capabilities*
-  (`setcap cap_net_raw,cap_net_admin+ep`). Si no, falla con "could not mkdir /var/empty".
-- **Captura correcta:** el filtro debe ser `host <dst> or icmp`; solo `host <dst>` pierde los
-  Time-Exceeded de los routers intermedios.
-- **Sonda tras NAT:** la CLI de RIPE añade el tag `system-ipv4-works` que la sonda no tiene; por
-  eso las mediciones se crean con la API REST seleccionando el probe por ID.
-- **Permisos de la sonda:** nunca hacer `sudo chown -R` sobre todo el proyecto (rompe
-  `ripe-atlas/{run,spool}` y la sonda no reconecta).
