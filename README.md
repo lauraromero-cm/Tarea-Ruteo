@@ -81,7 +81,7 @@ abiertos en NDEx.
 │
 ├── ripe-atlas/              # Configuración de la sonda Docker (sin claves privadas)
 │   ├── etc/                  # Config del contenedor (probe_key está en .gitignore)
-│   └── MI_CLAVE_PUBLICA.txt  # Clave pública registrada en RIPE
+│   
 │
 ├── .gitignore
 └── README.md
